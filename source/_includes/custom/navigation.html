@@ -1,4 +1,11 @@
 <ul class="main-navigation">
   <li><a href="{{ root_url }}/">Blog</a></li>
   <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+  <li>
+    <div id="dark">
+      <form method="get" action="{{ root_url }}/search.html" id="search">
+        <input name="query" type="text" placeholder="Search..." x-webkit-speech />
+      </form>
+    </div>
+  </li>
 </ul>
