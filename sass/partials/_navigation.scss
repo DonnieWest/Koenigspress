@@ -36,7 +36,6 @@ body > nav {
   fieldset.mobile-nav{ width: 45%; display: inline-block; margin-left: 0%; margin-right: 0%;
     select{ width: 100%; font-size: .8em; border: 1px solid $nav-border; background-color: #eee;}
   }
-  ul { display: none; }
   @media only screen and (min-width: 550px) {
     font-size: .95em;
     ul {
