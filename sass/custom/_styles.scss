@@ -19,6 +19,14 @@ body > footer {
   
 }
 
+article header, #content div.pagination {
+  border-top: 1px dashed #636363; 
+}
+
+#content div.pagination {
+  border-bottom: 1px dashed #636363;
+}
+
 .gist-file {
   font-size:.8em !important;
 }
@@ -90,7 +98,7 @@ table.lines{
   outline:0;
 }
 
-li {
+body>nav ul li {
   list-style-type: none;
   
 }
